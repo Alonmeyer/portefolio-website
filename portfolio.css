@@ -35,3 +35,6 @@ nav a {
     line-height: normal;
     text-decoration: none;
 }
+nav a:hover{
+    text-decoration: underline;
+}
