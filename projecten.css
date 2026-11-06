@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.76) 100%),
+        url(fotos_portfolio/codeBackgroundImage.png) lightgray 50% / cover repeat-y;
+    color: white;
+    font-family: 'jersey20';
+    font-size: 24px;
+}
+
+h1 {
+    color: white;
+    font-family: 'jersey20';
+    font-size: 96px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'jersey20';
+    font-size: 64px;
+    text-align: center;
+}
+
+.mijn_projecten {
+    position: relative;
+}
+
+.twosides {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+
+.mijn_projecten>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mijn_projecten img {
+    height: 161px;
+    width: 485px;
+    border-radius: 7px;
+}
+
+.het_goede_doel {
+    position: relative;
+}
+
+.het_goede_doel img {
+    height: 220px;
+    width: 485px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.het_goede_doel>div>div:nth-child(1)>button {
+    height: 59px;
+    width: 394px;
+    background-color: #2D6A3F;
+    color: white;
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 1em 0px;
+}
+
+.het_goede_doel>div>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 485px;
+    background-color: #2D6A3F;
+    color: white;
+    font-size: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.strip div {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strip img {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.76) 100%),
+        url(fotos_portfolio/codeBackgroundImage.png) lightgray 50% / cover repeat-y;
+}
+
+h1 {
+    color: white;
+    font-family: 'jersey20';
+    font-size: 96px;
+    text-align: center;
+}
+
+.profiel {
+    position: relative;
+    height: 702px;
+}
+
+.profiel img {
+    height: 726px;
+    width: 726px;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    z-index: -1;
+}
+
+.profiel div {
+    position: relative;
+    top: 17%;
+    left: 12%;
+}
+
+.vaardigheden {
+    padding-top: 48px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 260px auto;
+    gap: 10px;
+
+    color: #FFFF;
+    font-family: 'inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container img {
+    height: 182px;
+}
+
+h2 {
+    font-family: 'inter';
+    font-size: 48px;
+    color: white;
+}
+
+.container>div:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>div:nth-child(1) img {
+    width: 182px;
+}
+
+.container>div:nth-child(2) h2 {
+    color: #DD7346;
+}
+
+.container>div:nth-child(3) img {
+    width: 159px;
+}
+
+.container>div:nth-child(4) h2 {
+    color: #7A9DEE;
+}
+
+.container>div:nth-child(5) img {
+    width: 183px;
+}
+
+.container>div:nth-child(6) h2 {
+    color: #7A97FB;
+}
+
+.container>div:nth-child(7) img {
+    width: 145px;
+}
+
+.container>div:nth-child(8) h2 {
+    color: #FFB864;
+}
+
+.container>div:nth-child(9) img {
+    width: 123px;
+}
+
+.container>div:nth-child(10) h2 {
+    color: #FF4D12;
+}
+
+p {
+    font-family: 'inter';
+    font-size: 32px;
+    color: white;
+}

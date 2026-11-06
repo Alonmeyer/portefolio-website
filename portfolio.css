@@ -1,0 +1,37 @@
+@font-face {
+    font-family: jersey20;
+    src: url('fonts_portfolio/Jersey20-Regular.ttf');
+}
+
+@font-face {
+    font-family: inter;
+    src: url('fonts_portfolio/Inter/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+nav {
+    border-bottom: solid white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+}
+
+nav a {
+    margin-top: 0px;
+    margin-right: 40px;
+    align-items: center;
+    color: #FFF;
+    font-family: inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
