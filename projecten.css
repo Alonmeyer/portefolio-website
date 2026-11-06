@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: 'jersey20';
     font-size: 24px;
+    font-family: inter;
 }
 
 h1 {
@@ -46,6 +47,8 @@ h2 {
 
 .het_goede_doel {
     position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(0, 0, 0, 0.76) 100%),
+        url(fotos_portfolio/jungle\ foto.jpg) lightgray 50% / cover repeat-y;
 }
 
 .het_goede_doel img {
