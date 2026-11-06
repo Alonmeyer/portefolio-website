@@ -55,7 +55,7 @@ h2 {
     border-top-right-radius: 7px;
 }
 
-.het_goede_doel>div>div:nth-child(1)>button {
+.het_goede_doel>div>div:nth-child(1)> a button {
     height: 59px;
     width: 394px;
     background-color: #2D6A3F;
@@ -65,8 +65,11 @@ h2 {
     font-weight: bold;
     border-radius: 10px;
     margin: 1em 0px;
+    border: none;
 }
-
+.het_goede_doel>div>div:nth-child(1)> a button:hover{
+    background-color: #E8562A;
+}
 .het_goede_doel>div>div:nth-child(2) {
     display: flex;
     flex-direction: column;
