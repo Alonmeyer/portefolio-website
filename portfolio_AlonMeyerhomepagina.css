@@ -73,20 +73,29 @@ p {
     height: 100px;
 }
 
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
 .carousel_icon {
     display: flex;
     width: max-content;
     gap: 18px;
-    animation: heen-en-weer 10s  infinite alternate;
-    will-change: transform;
+    animation: infinite-scroll 12s linear infinite;
 }
 
-@keyframes heen-en-weer {
-    from {
+.carousel_icon img {
+    height: 100px;
+    flex-shrink: 0;
+}
+
+@keyframes infinite-scroll {
+    to {
         transform: translateX(0);
     }
 
-    to {
-        transform: translateX(calc(100cqw - 100%));
+    from {
+        transform: translateX(calc(-50% - 9px));
     }
 }
