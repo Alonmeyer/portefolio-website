@@ -61,3 +61,32 @@ h1:nth-child(3) {
 p {
     color: white;
 }
+.carousel{
+    width: 100%;
+  overflow: hidden;
+  container-type: inline-size;
+  padding: 8px 0 18px;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+.carousel_icon>img {
+    height: 100px;
+}
+
+.carousel_icon {
+    display: flex;
+    width: max-content;
+    gap: 18px;
+    animation: heen-en-weer 10s  infinite alternate;
+    will-change: transform;
+}
+
+@keyframes heen-en-weer {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(100cqw - 100%));
+    }
+}
